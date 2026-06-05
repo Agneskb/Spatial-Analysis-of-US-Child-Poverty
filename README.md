@@ -51,10 +51,13 @@ The analysis integrates public data sources and applies both classical and spati
 ## Repository Structure
 
 ```
+Spatial-Analysis-of-US-Child-Poverty/
 ├── data/
-├── scripts/
-├── outputs/
+├── code/
+│   ├── 00_data_preprocessing.R
+│   ├── 01_eda_maps.R
+│   ├── 02_spatial_analysis.R
+│   └── 03_modeling.R
 ├── figures/
-├── docs/
 └── README.md
 ```
